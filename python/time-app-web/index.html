@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>MetaCall Python Time App Web Example</title>
+  </head>
+  <body>
+    <form>
+        <label>Press the button and MetaCall will give you the current time:</label>
+        <label id="current-time"></label>
+        <input type="button" onclick="get_time()" value="Get Current Time">
+    </form>
+    <script>
+      function get_time() {
+        var http = new XMLHttpRequest();
+
+        var username = 'viferga';
+
+        http.open('GET', '/api/call/' + username + '/time', true);
+
+        http.addEventListener('load', function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById('current-time').innerHTML = this.responseText;
+          }
+        });
+
+        http.send();
+      }
+    </script>
+  </body>
+</html>
