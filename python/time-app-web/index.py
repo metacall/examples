@@ -13,7 +13,6 @@ an html index and returns the current hour in just two functions.
 from os import path
 from datetime import datetime
 
-
 def index():
   """Read index.html from file and return it.
 
