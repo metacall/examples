@@ -1,6 +1,6 @@
 #!/usr/bin/python3.6
 
-"""MetaCall Examples - Python Time App Web.
+"""MetaCall Examples - Time App Web.
 
 [MetaCall](https://metacall.io)
 [MetaCall Examples](https://github.com/metacall/examples)
