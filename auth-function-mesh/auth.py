@@ -17,5 +17,5 @@ metacall_load_from_file('node', ['auth-function-mesh/auth/auth.js'])
 def login(text):
 	return metacall('sign', text)
 
-def time(token):
+def verify(token):
 	return metacall('verify', token)
