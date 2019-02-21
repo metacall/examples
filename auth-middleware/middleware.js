@@ -9,8 +9,8 @@ function validUser(user, password) {
 	return user === 'viferga' && password === '123';
 }
 
-// Login function that returns a token if login is valid
-function login(user, password) {
+// Sign in function that returns a token if login is valid
+function signin(user, password) {
 	if (validUser(user, password))
 		return jwt.sign({ user, password }, secret);
 
@@ -38,9 +38,9 @@ function middleware(f) {
 	}
 }
 
-// Export login and reverse and sum with middleware
+// Export sign in without middleware and reverse and sum with it
 module.exports = {
-	login,
+	signin,
 	reverse: middleware(reverse),
 	sum: middleware(sum),
 };

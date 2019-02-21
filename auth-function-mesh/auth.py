@@ -14,8 +14,8 @@ from metacall import metacall_load_from_file, metacall
 
 metacall_load_from_file('node', ['auth-function-mesh/auth/auth.js'])
 
-def login(text):
+def encrypt(text):
 	return metacall('sign', text)
 
-def verify(token):
+def decrypt(token):
 	return metacall('verify', token)

@@ -13,16 +13,19 @@ an html index and returns the current hour in just two functions.
 from os import path
 from datetime import datetime
 
+# Read index.html file
+basepath = path.dirname(path.abspath(__file__))
+
+with open(path.join(basepath, 'index.html'), 'r') as f:
+  template = f.read()
+
 def index():
   """Read index.html from file and return it.
 
   Returns:
     Return the index.html content.
   """
-  basepath = path.dirname(path.abspath(__file__))
-
-  with open(path.join(basepath, 'index.html'), 'r') as f:
-    return f.read()
+  return template
 
 def time():
   """Get current time and date.
