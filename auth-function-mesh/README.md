@@ -1,6 +1,6 @@
 # MetaCall Auth Function Mesh
 
-This example shows two functions implemented in Python (auth.py). These functions utilize other two that are implemented in JavaScript - NodeJS (auth/auth.js)
+This example shows two functions implemented in Python (auth.py). These functions use other two that are implemented in JavaScript - NodeJS (auth/auth.js)
 
 The JWT library is being used from JavaScript. This means that you execute the JavaScript functions from Python.
 
