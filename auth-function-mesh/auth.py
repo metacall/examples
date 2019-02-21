@@ -12,7 +12,7 @@ a call to another backend written in JavaScript (NodeJS).
 
 from metacall import metacall_load_from_file, metacall
 
-metacall_load_from_file('node', ['auth/auth.js'])
+metacall_load_from_file('node', ['auth'])
 
 def login(text):
 	return metacall('sign', text)

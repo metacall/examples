@@ -1,6 +1,7 @@
 {
-  "name": "auth-function-mesh",
+  "name": "auth",
   "version": "0.1.0",
+  "main": "auth.js",
   "dependencies": {
     "jsonwebtoken": "^8.4.0"
   }
