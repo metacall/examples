@@ -12,5 +12,5 @@ For more information, visit [MetaCall](https://metacall.io).
 
 A part from the examples contained in this repository, we are interested in maintaining examples done by the community. The following list contains other repositories with examples ready to be deployed in MetaCall that are supported by contributors.
 
-- [MetaCall Machine Learning Example](https://github.com/akash-joshi/metacall-ml-example): Machine Learning example for predicting salary amount depending on years of experience.
+- [MetaCall Machine Learning Example](https://github.com/metacall/metacall-ml-example): Machine Learning example for predicting salary amount depending on years of experience, by [akash-joshi](https://github.com/akash-joshi)
 - [MetaCall SSR React Example](https://github.com/metacall/metacall-SSR-react-example): React server rendering example, by [akash-joshi](https://github.com/akash-joshi)
