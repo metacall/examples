@@ -12,7 +12,8 @@
       function get_time() {
         var http = new XMLHttpRequest();
 
-        var username = 'viferga';
+        // This will try to teake username from url
+        var username = window.location.pathname.split('/')[1];
         var version = 'v1';
         var deployment = 'metacall/examples';
 
