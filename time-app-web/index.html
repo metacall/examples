@@ -17,7 +17,7 @@
         var version = 'v1';
         var deployment = 'metacall/examples';
 
-        http.open('GET', `/api/${username}/${deployment}/${version}/call/time`, true)
+        http.open('GET', `/${username}/${deployment}/${version}/call/time`, true)
 
         http.addEventListener('load', function() {
           if (this.readyState == 4 && this.status == 200) {
