@@ -15,10 +15,10 @@ The functions will run in parallel in the same deployment. If the workload is to
 For testing it with curl:
 ``` bash
 # Encrypt
-curl https://metacall.io/api/viferga/metacall/examples/v1/call/encrypt -X POST --data '{ "text": "asd" }'
+curl https://api.metacall.io/viferga/metacall-examples/v1/call/encrypt -X POST --data '{ "text": "asd" }'
 # > "eyJhbGciOiJIUzI1NiJ9.YXNk.QNa-p8QpuHcVUDMN_Ih4x4vidWp31365GM4zrSr3t0s"
 
 # Decrypt
-curl https://metacall.io/api/viferga/metacall/examples/v1/call/decrypt -X POST --data '{ "token": "eyJhbGciOiJIUzI1NiJ9.YXNk.QNa-p8QpuHcVUDMN_Ih4x4vidWp31365GM4zrSr3t0s" }'
+curl https://api.metacall.io/viferga/metacall-examples/v1/call/decrypt -X POST --data '{ "token": "eyJhbGciOiJIUzI1NiJ9.YXNk.QNa-p8QpuHcVUDMN_Ih4x4vidWp31365GM4zrSr3t0s" }'
 # > "asd"
 ```
