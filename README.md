@@ -1,12 +1,18 @@
 # MetaCall Examples
 
-MetaCall Examples - A collection of use cases and examples to be deployed in MetaCall.
+A collection of use cases and examples to be deployed in MetaCall.
 
 For more information, visit [MetaCall](https://metacall.io).
 
 - [Python Web App](https://github.com/metacall/examples/tree/master/time-app-web): A basic example of a template web that gives you the current time.
 - [Auth Middleware](https://github.com/metacall/examples/tree/master/auth-middleware): Example of how to implement a middleware using JWT by function composition pattern in NodeJS.
 - [Auth Function Mesh](https://github.com/metacall/examples/tree/master/auth-function-mesh): An example of a function mesh using NodeJS for JWT authentication and Python as a frontend using the auth service.
+
+## Article Examples
+
+There are other examples for articles that we write in [our blog](https://medium.com/@metacall). We are opened to publish articles written by the community too.
+
+- [BeautifulSoup Express Example](https://github.com/metacall/beautifulsoup-express-example): Using BeautifulSoup (Python) mixed with an Express server (NodeJS) in order to build a Serverless Polyglot Scraping API with MetaCall.
 
 ## Community Examples
 
