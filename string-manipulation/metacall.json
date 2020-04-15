@@ -1,0 +1,7 @@
+{
+	"language_id": "rb",
+	"path": ".",
+	"scripts": [
+		"str.rb"
+	]
+}
