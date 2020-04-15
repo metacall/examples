@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/env python
 
 """MetaCall Examples - Auth Function Mesh.
 
