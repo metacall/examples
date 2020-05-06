@@ -1,12 +1,14 @@
 # MetaCall Examples
 
-A collection of use cases and examples to be deployed in MetaCall.
-
-For more information, visit [MetaCall](https://metacall.io).
+A collection of use cases and examples to be deployed in MetaCall. For more information, visit [MetaCall](https://metacall.io).
 
 - [Python Web App](https://github.com/metacall/examples/tree/master/time-app-web): A basic example of a template web that gives you the current time.
 - [Auth Middleware](https://github.com/metacall/examples/tree/master/auth-middleware): Example of how to implement a middleware using JWT by function composition pattern in NodeJS.
 - [Auth Function Mesh](https://github.com/metacall/examples/tree/master/auth-function-mesh): An example of a function mesh using NodeJS for JWT authentication and Python as a frontend using the auth service.
+
+We also maintain other examples, which are published in different repositories:
+
+- [Mailchimp Subscription](https://github.com/metacall/mailchimp-example): A complete example for setup Mailchimp subscriptions, includes Express for handling Webhooks.
 
 ## Article Examples
 
