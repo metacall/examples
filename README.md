@@ -9,6 +9,7 @@ A collection of use cases and examples to be deployed in MetaCall. For more info
 We also maintain other examples, which are published in different repositories:
 
 - [Mailchimp Subscription](https://github.com/metacall/mailchimp-example): A complete example for setup Mailchimp subscriptions, includes Express for handling Webhooks.
+- [Mailchimp DynamoDB Newsletter](https://github.com/metacall/mailchimp-dynamodb-example): A self contained solution for a Newsletter. A micro front-end, serverless function and a service (Express).
 
 ## Article Examples
 
