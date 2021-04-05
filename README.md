@@ -17,6 +17,7 @@ There are other examples for articles that we write in [our blog](https://medium
 
 - [BeautifulSoup Express Example](https://github.com/metacall/beautifulsoup-express-example): Using BeautifulSoup (Python) mixed with an Express server (NodeJS) in order to build a Serverless Polyglot Scraping API with MetaCall.
 - [Polyglot URL shortener that can be deployed into MetaCall FaaS](https://github.com/metacall/url-shortener-example): Using TinyURL API in Python with a Node Script to shorten a URL, which can be deployed as a Polyglot URL Shortener on MetaCall FaaS, by [harshcasper](https://github.com/harshcasper)
+- [Polygor Currency Converter](https://github.com/metacall/currency-convert-example): Using Exchnage Rates API in Python with a NodeJS Script to Convert Currency using MetaCall by  [Siddhant-K-code](https://github.com/Siddhant-K-code)
 
 ## Community Examples
 
