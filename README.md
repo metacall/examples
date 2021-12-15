@@ -24,5 +24,5 @@ There are other examples for articles that we write in [our blog](https://medium
 A part from the examples contained in this repository, we are interested in maintaining examples done by the community. The following list contains other repositories with examples ready to be deployed in MetaCall that are supported by contributors.
 
 - [MetaCall Machine Learning Example](https://github.com/metacall/metacall-ml-example): Machine Learning example for predicting salary amount depending on years of experience, by [akash-joshi](https://github.com/akash-joshi)
-- [MetaCall SSR React Example](https://github.com/metacall/metacall-SSR-react-example): React server rendering example, by [akash-joshi](https://github.com/akash-joshi)
+- [MetaCall SSR React Example](https://github.com/metacall/react-SSR-example): React server rendering example, by [Drontitan](https://github.com/Drontitan)
 - [MetaCall Hashing Function with Frontend](https://github.com/metacall/hasher-example): Metacall Hashing function with frontend, by [gargakshit](https://github.com/gargakshit)
