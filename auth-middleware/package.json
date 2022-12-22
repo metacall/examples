@@ -2,6 +2,6 @@
   "name": "auth-middleware",
   "version": "0.1.0",
   "dependencies": {
-    "jsonwebtoken": "^8.4.0"
+    "jsonwebtoken": "^9.0.0"
   }
 }
