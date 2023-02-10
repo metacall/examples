@@ -1,5 +1,5 @@
-# MetaCall Polyglot URL Shortener
-This example shows how to create a URL shortener using multiple languages and deploy it to the cloud.
+# MetaCall Polyglot Random Password Generator Example
+This example shows how to create a random password generator using multiple languages and deploy it to the cloud.
 In this example project we are using Python and NodeJS along with [Metacall](https://github.com/metacall) to run the application.
 
 ## Instructions
@@ -17,9 +17,10 @@ In this example project we are using Python and NodeJS along with [Metacall](htt
 1. Deploy the application through the [dashboard](https://dashboard.metacall.io/)
 2. Test the application
    1. Through your browser:
-      - `https://api.metacall.io/{user name}/{deployment name}/{deployment version}/call/shorten?url=`
+      - `https://api.metacall.io/{user name}/{deployment name}/{deployment version}/call/getPassword?length=`
    2. Using `curl`:
-      - `curl -X POST https://api.metacall.io/{user name}/{deployment name}/{deployment version}/call/shorten --data '{ "url": "https://github.com/Mostafa-wael" }'`
+      - `curl -X POST https://api.metacall.io/{user name}/{deployment name}/{deployment version}/call/getPassword --data '{ "length": 10 }'`
+>> You can copy the deployment URL from the dashboard too. 
 
 
 
