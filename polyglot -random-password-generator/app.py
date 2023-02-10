@@ -1,9 +1,5 @@
 import random
 
-# call the shuffle function from the app.rb using metacall
-from metacall import metacall_load_from_file, metacall
-metacall_load_from_file('ruby', ['app.rb'])
-
 def shuffle(string):
   tempList = list(string) # Convert the string to a list
   random.shuffle(tempList) # Shuffle the list

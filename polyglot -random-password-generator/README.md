@@ -7,13 +7,12 @@ In this example project we are using Python and NodeJS along with [Metacall](htt
    - `curl -sL https://raw.githubusercontent.com/metacall/install/master/install.sh | sh`
 2. Install the requirements:
    - `metacall pip3 install -r requirements.txt` 
-   - or `metacall pip3 install requests`
 
 ## Run the application locally
 1. Run the application using `metacall`: 
    - `metacall main.js`
 
-## Run the application in the cloud
+## Run the application on the cloud
 1. Deploy the application through the [dashboard](https://dashboard.metacall.io/)
 2. Test the application
    1. Through your browser:
