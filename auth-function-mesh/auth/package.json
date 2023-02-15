@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "main": "auth.js",
   "dependencies": {
-    "jsonwebtoken": "^8.4.0"
+    "jsonwebtoken": "^9.0.0"
   }
 }
