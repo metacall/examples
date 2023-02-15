@@ -27,3 +27,4 @@ A part from the examples contained in this repository, we are interested in main
 - [MetaCall Machine Learning Example](https://github.com/metacall/metacall-ml-example): Machine Learning example for predicting salary amount depending on years of experience, by [akash-joshi](https://github.com/akash-joshi)
 - [MetaCall SSR React Example](https://github.com/metacall/react-SSR-example): React server rendering example, by [Drontitan](https://github.com/Drontitan)
 - [MetaCall Hashing Function with Frontend](https://github.com/metacall/hasher-example): Metacall Hashing function with frontend, by [gargakshit](https://github.com/gargakshit)
+- [MetaCall Polyglot Random Password Generator](https://github.com/metacall/random-password-generator-example): A simple random password generator implemnted using Python and Node.js, by [Mostafa Wael](https://github.com/Mostafa-wael)
