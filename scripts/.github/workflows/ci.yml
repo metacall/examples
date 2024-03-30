@@ -1,0 +1,33 @@
+name: CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up MetaCall and dependencies
+        run: |
+          sudo apt-get update
+          # Install MetaCall and other dependencies as needed
+          ./scripts/download_distributables.sh
+          chmod +x ./scripts/run_tests.sh
+
+      - name: Clone example repositories
+        run: |
+          ./scripts/clone_examples.sh
+
+      - name: Run tests
+        run: |
+          ./scripts/run_tests.sh
+
+      - name: Deploy FaaS examples
+        run: |
+          # Add deployment scripts or commands here
