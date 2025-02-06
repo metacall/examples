@@ -28,3 +28,4 @@ A part from the examples contained in this repository, we are interested in main
 - [MetaCall SSR React Example](https://github.com/metacall/react-SSR-example): React server rendering example, by [Drontitan](https://github.com/Drontitan)
 - [MetaCall Hashing Function with Frontend](https://github.com/metacall/hasher-example): Metacall Hashing function with frontend, by [gargakshit](https://github.com/gargakshit)
 - [MetaCall Polyglot Random Password Generator](https://github.com/metacall/random-password-generator-example): A simple random password generator implemnted using Python and Node.js, by [Mostafa Wael](https://github.com/Mostafa-wael)
+- [MetaCall Go-Concurrency Text Classification ](https://github.com/metacall/go-python-ml-example): Implementation of Text Classification model using golang's concurrency model, by [Faizan Shaik](https://github.com/fyzanshaik)
