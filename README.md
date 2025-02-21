@@ -20,6 +20,7 @@ There are other examples for articles that we write in [our blog](https://medium
 - [Polyglot URL shortener that can be deployed into MetaCall FaaS](https://github.com/metacall/url-shortener-example): Using TinyURL API in Python with a Node Script to shorten a URL, which can be deployed as a Polyglot URL Shortener on MetaCall FaaS, by [harshcasper](https://github.com/harshcasper)
 - [Polygot Currency Converter](https://github.com/metacall/currency-convert-example): Using Exchnage Rates API in Python with a NodeJS Script to Convert Currency using MetaCall by  [Siddhant-K-code](https://github.com/Siddhant-K-code)
 - [Ployglot Random Password Generator](https://mostafawael.medium.com/make-your-first-polyglot-project-using-metacall-40e6b3333f36): Follow a step-by-step guide to install MetaCall and make your first simple project using Python and Javascript, by [Mostafa Wael](https://github.com/Mostafa-wael)
+
 ## Community Examples
 
 A part from the examples contained in this repository, we are interested in maintaining examples done by the community. The following list contains other repositories with examples ready to be deployed in MetaCall that are supported by contributors.
@@ -31,3 +32,4 @@ A part from the examples contained in this repository, we are interested in main
 - [MetaCall Polyglot Data Analysis and Visualization API ](https://github.com/metacall/numpy-matplotlib-websocket-nodejs-example): Implementation of Websocket using NodeJS integrated with Python ML libraries, by [Pawan Singh](https://github.com/pawxnsingh)
 - [MetaCall Go-Concurrency Text Classification ](https://github.com/metacall/go-python-ml-example): Implementation of Text Classification model using golang's concurrency model, by [Faizan Shaik](https://github.com/fyzanshaik)
 - [MetaCall Polyglot Blog Application](https://github.com/metacall/polyglot-blog-example): A full-stack blog application supports CRUD operations for blog posts, which can be written and rendered in Markdown. It also features a summarization capability powered by Python through MetaCall, by [Mohy Khalid](https://github.com/mohyware)
+- [Polyglot Tree Traversal](https://github.com/metacall/polyglot-tree-traversal-example): Traversing a tree where nodes are written in C, Python and JS, by [Rohan Kumar Mahato](https://github.com/RohanKrMahato)
